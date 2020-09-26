@@ -18,6 +18,7 @@ const history = syncHistoryWithStore(browserHistory, store);
 
 render(
   <Provider store={store}>
+    <h4>Todo Application</h4>
     <Router history={history} routes={routes} />
   </Provider>, document.getElementById('app')
 );
